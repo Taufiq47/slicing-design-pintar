@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main | PINTAR</title>
+    <link rel="stylesheet" href="../../dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-primary">
+    <nav class="flex justify-between px-12 py-6 bg-accent">
+        <h1 class="text-xl text-yellow-500 font-bold">Logo</h1>
+        <div class="space-x-6 text-gray-500 font-semibold">
+            <a href="http://" class="hover:text-primary">Penyewaan</a>
+            <a href="http://" class="hover:text-primary">Kendaraan</a>
+        </div>
+        <button class="py-1 px-2 bg-yellow-500 rounded-sm text-white font-semibold hover:bg-yellow-400 transition-colors">Logout</button>
+    </nav>
+
+    <main class="flex justify-center w-screen">
+        <div class="w-[35rem] py-6 space-y-2">
+            <div class="w-full flex justify-between">
+                <h1 class="text-accent font-extrabold text-xl mb-3">Car List: </h1>
+                <button class="py-1 px-2 h-fit bg-blue-500 rounded-sm text-white font-semibold hover:bg-blue-400 transition-colors">Add Car</button>
+            </div>
+    
+            <!-- List Kendaraan -->
+            <!-- Satu div -->
+            <div class="h-fit w-full bg-narrow rounded-lg p-4">
+                <div class="flex justify-between">
+                    <div class="flex">
+                        <img class="h-20" src="./img/pngwing-2.png" alt="">
+                        <div class="flex flex-col h-full">
+                            <h1 class="text-2xl font-bold text-accent mb-3">Toyota Agya</h1>
+                            <div class="flex space-x-2">
+                                <img class="h-6" src="./img/Users.svg" alt="">
+                                <span>4</span>
+                                <img class="h-5" src="./img/Case.svg" alt="">
+                                <span>2</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-end justify-between">
+                        <div>
+                            <span class="text-xs font-semibold text-gray-600">Starts From</span>
+                            <p class="text-sm font-bold text-accent">IDR 130.000/day</p>
+                        </div>
+                        <div class="space-x-1">
+                            <button
+                                class="py-[2px] px-2 h-fit bg-blue-500 rounded-sm text-white font-semibold hover:bg-blue-400 transition-colors">Edit</button>
+                            <button
+                                class="py-[2px] px-2 h-fit bg-red-500 rounded-sm text-white font-semibold hover:bg-red-400 transition-colors">Delete</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End satu div -->
+
+        </div>
+    </main>
+</body>
+
+</html>
